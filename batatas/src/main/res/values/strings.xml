@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Batatas</string>
+    <string name="app_id">1585677015053711</string>
+    <string name="new_list">Nova lista</string>
+    <string name="add">Adicionar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="add_item">Adicionar</string>
+    <string name="item_name_hint">Nome do produto</string>
+    <string name="scan_barcode">Código de barras</string>
+    <string name="item_amount_hint">Qtd</string>
+    <string name="lists_add_from_qr_code">Criar a partir de Nota fiscal</string>
+    <string name="intro_welcome">Bem-vindo ao Batatas! Primeiro, você deve se autenticar com o seu Facebook para acessar o aplicativo.</string>
+    <string name="title_activity_main">Batatas</string>
+    <string name="reload">Atualizar</string>
+    <string name="share">Compartilhar</string>
+    <string name="list_check_bill">Marcar usando Nota fiscal</string>
+    <string name="list_check_product">Marcar usando Código de barras</string>
+    <string name="delete_selected">Apagar selecionados</string>
+    <string name="list_name">Nome da lista</string>
+    <string name="new_item">Novo</string>
+
+    <string name="err_no_matching_items">Nenhum produto dessa lista encontrado na nota fiscal.</string>
+    <string name="err_find_product">Produto não encontrado.</string>
+
+    <string name="err_deleted">Falha ao apagar.</string>
+    <string name="err_fetch_lists">Falha ao obter suas listas de compras.</string>
+    <string name="err_fetch_list">Falha ao obter a lista de compras selecionada.</string>
+    <string name="err_fetch_shared_list">Falha ao identificar compartilhamentos dessa lista.</string>
+    <string name="err_add_item">Falha ao adicionar item!</string>
+    <string name="err_create_list">Falhar ao criar lista de compras.</string>
+    <string name="err_share_friend">Falha ao compartilhar lista.</string>
+    <string name="err_unshare_friend">Falha ao remover o compartilhamento.</string>
+
+    <string name="exc_get_bill_products">Falha ao obter produtos da nota fiscal.</string>
+
+    <string name="info_login_canceled">Login cancelado.</string>
+    <string name="info_no_product_found">Nenhum produto encontrado.</string>
+
+    <string name="suc_deleted_item">Item apagado com sucesso!</string>
+    <string name="suc_deleted_list">Lista(s) apagada com sucesso!</string>
+
+    <string name="_selected"> selecionado</string>
+</resources>

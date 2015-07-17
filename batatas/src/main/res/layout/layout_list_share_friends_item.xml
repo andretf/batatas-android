@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    class="com.andretrindade.batatas.view.CheckableLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/listChoiceBackgroundIndicator"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <com.andretrindade.batatas.view.TextAwesome
+        android:id="@+id/share_friend_check_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:width="30dp"
+        android:gravity="center_horizontal"
+        android:inputType="text"
+        android:padding="5dp"
+        android:paddingTop="15dp"
+        android:textAppearance="?android:attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/share_friend_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:scrollHorizontally="true"
+        android:singleLine="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:ignore="TextViewEdits" />
+
+</view>

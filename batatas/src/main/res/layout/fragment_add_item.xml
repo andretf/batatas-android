@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.andretrindade.batatas.fragments.AddItemFragment">
+
+    <AutoCompleteTextView
+        android:id="@+id/new_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/item_name_hint"
+        android:minWidth="150dp"
+        android:paddingTop="3dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/scan_new_item_barcode"
+            android:layout_width="175dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="left"
+            android:layout_marginLeft="4dp"
+            android:background="@android:drawable/bottom_bar"
+            android:text="@string/scan_barcode"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/new_item_amount"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:hint="@string/item_amount_hint"
+            android:inputType="number"
+            android:minWidth="50dp" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/new_item_ean_code"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:inputType="none"
+        android:visibility="invisible" />
+
+</LinearLayout>

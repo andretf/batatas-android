@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ListsOverviewActivity">
+
+    <item
+        android:id="@+id/lists_overview__menu_new_list"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/new_list"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/lists_overview_menu_reload"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="@string/reload"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/lists_add_from_qr_code"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:orderInCategory="100"
+        android:title="@string/lists_add_from_qr_code"
+        app:showAsAction="collapseActionView" />
+
+</menu>

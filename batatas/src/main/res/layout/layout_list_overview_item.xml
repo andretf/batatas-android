@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    class="com.andretrindade.batatas.view.CheckableLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/listChoiceBackgroundIndicator"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/list_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/list_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+</view>
